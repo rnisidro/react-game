@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Comic Sans";
+  src: url("../src/comic-sans.ttf") format("truetype");
+}
+
+.white-bg {
+  background-color: #ffffff;
+  padding: 100px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  position: relative;
+  padding: 10px;
+}
+
+body {
+  display: flex;
+  background-image: url(./assets/img/bg.jpg);
+  flex-direction: column;
+  align-items: center;
+  font-family: "Comic Sans";
+  font-size: 21px;
+}
+
+.text {
+  padding: 40px;
+  width: 700px;
+}
+
+.board {
+  width: 440px;
+  height: 440px;
+  padding: 5px;
+  background-color: #d6ed17;
+  border-radius: 7px;
+  position: relative;
+}
+
+.details-box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.resetButton {
+  background-color: #606060;
+  color: #d6ed17;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.score-header {
+  font-size: 50%;
+}
+
+.score-box {
+  background-color: #606060;
+  color: #d6ed17;
+  min-width: 50px;
+  width: 70px;
+  padding: 5px 15px;
+  border-radius: 7px;
+}
+
+.cell, .tile {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 7px;
+  font-family: "Clear Sans";
+  background-color: #606060;
+}
+
+.tile2 {
+  background-image: url(./assets/img/2.gif);
+}
+
+.tile4 {
+  background-image: url(./assets/img/4.gif);
+}
+
+.tile8 {
+  background-image: url(./assets/img/8.gif);
+}
+
+.tile16 {
+  background-image: url(./assets/img/16.gif);
+}
+
+.tile32 {
+  background-image: url(./assets/img/32.gif);
+}
+
+.tile64 {
+  background-image: url(./assets/img/64.gif);
+}
+
+.tile128 {
+  background-image: url(./assets/img/128.gif);
+}
+
+.tile256 {
+  background-image: url(./assets/img/256.gif);
+}
+
+.tile512 {
+  background-image: url(./assets/img/512.gif);
+}
+
+.tile1024 {
+  background-image: url(./assets/img/1024.gif);
+}
+
+.tile2048 {
+  background-image: url(./assets/img/2048.gif);
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.tile {
+  position: absolute;
+}
+
+.gameOver {
+  background-image: url(./assets/img/game-over.gif);
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
